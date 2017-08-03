@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git clone https://github.com/jekyll/jekyll
+pushd jekyll
+bundle install -j8
+script/build-repo https://github.com/parkr/stuff
+script/build-repo https://github.com/benbalter/benbalter.github.io
