@@ -1,5 +1,2 @@
 #!/bin/bash
-
-git clone https://github.com/jekyll/jekyll
-cd jekyll && bundle install -j8
-gem install github-pages
+bundle install -j8
