@@ -1,4 +1,5 @@
 #!/bin/bash -xe
 
 script/build-repo https://github.com/parkr/stuff
-script/build-repo https://github.com/benbalter/benbalter.github.io
+script/build-repo https://github.com/benbalter/benbalter.github.com
+script/build-repo https://github.com/18F/federalist-docs
