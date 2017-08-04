@@ -17,6 +17,6 @@ if [ "$(uname -s)" = "Darwin" ]; then
 fi
 
 echo " ==> Cloning $clone_url into $clone_location"
-git clone -q "$clone_url" "$clone_location"
+git clone --recurse-submodules -q "$clone_url" "$clone_location"
 echo " ==> Building it..."
 BUNDLE_GEMFILE=$(pwd)/Gemfile bundle exec jekyll build -s "$clone_location" -d "$build_location"
