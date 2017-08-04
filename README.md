@@ -2,6 +2,8 @@
 
 Daily acceptance tests for Jekyll. Builds 10 complex websites.
 
+[![Build Status](https://travis-ci.org/jekyll/acceptance.svg?branch=master)](https://travis-ci.org/jekyll/acceptance)
+
 ## Background
 
 [Jekyll](https://github.com/jekyll/jekyll) is a static site generator
