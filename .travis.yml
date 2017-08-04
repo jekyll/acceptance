@@ -1,8 +1,6 @@
 language: ruby
-bundler_args: --without benchmark:site:development
+install: script/bootstrap
 script: script/cibuild
-cache: bundler
-language: ruby
 sudo: false
 
 rvm:

@@ -1,0 +1,17 @@
+#!/bin/bash -xe
+
+clone_url="$1"
+if test -z "$clone_url"; then
+  echo "usage: $0 https://github.com/owner/repo"
+  exit 1
+fi
+
+TMPDIR="$(pwd)/tmp"
+clone_location=$(mktemp -d)
+build_location=$(mktemp -d)
+
+cleanup() { rm -r "$clone_location" "$build_location"; }
+trap cleanup EXIT
+
+git clone -q "$clone_url" "$clone_location"
+jekyll/exe/jekyll build -s "$clone_location" -d "$build_location"
