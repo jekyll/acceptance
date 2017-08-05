@@ -8,7 +8,7 @@ Daily acceptance tests for Jekyll. Builds 10 complex websites.
 
 [Jekyll](https://github.com/jekyll/jekyll) is a static site generator
 written in Ruby. Any actively-developed software project needs to be
-regularly tests. To this end, Jekyll runs unit tests and integration tests
+regularly tested. To this end, Jekyll runs unit tests and integration tests
 for every pull request and push to `master`. Beyond this, Jekyll is tested
 by adventurous users who build their site with pre-releases or from
 `master`. Often, these real-world site builds uncover bugs that the unit &
