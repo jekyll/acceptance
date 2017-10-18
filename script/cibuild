@@ -20,3 +20,7 @@ script/build-repo https://github.com/twbs/bootstrap-blog
 
 # Add this site because the author said it takes 15 minutes to build.
 script/build-repo https://github.com/grantmakers/grantmakers.github.io
+
+# Docker Documentation, because whales are heavy.
+script/build-repo https://github.com/docker/docker.github.io
+
