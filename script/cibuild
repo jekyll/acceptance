@@ -1,22 +1,22 @@
 #!/bin/bash -xe
 
 # Tiny site to get the ball rolling.
-script/build-repo https://github.com/parkr/stuff
+time script/build-repo https://github.com/parkr/stuff
 
 # Ben's site is great at catching weird bugs.
-script/build-repo https://github.com/benbalter/benbalter.github.com
+time script/build-repo https://github.com/benbalter/benbalter.github.com
 
 # 18F has been a huge user & supporter of Jekyll.
-script/build-repo https://github.com/18F/federalist-docs
+time script/build-repo https://github.com/18F/federalist-docs
 
 # @mmistakes is one of our most prolific theme writers & people love this theme.
-script/build-repo https://github.com/mmistakes/minimal-mistakes
+time script/build-repo https://github.com/mmistakes/minimal-mistakes
 
 # Something with plenty of non-ASCII characters.
-script/build-repo https://github.com/Gaohaoyang/gaohaoyang.github.io
+time script/build-repo https://github.com/Gaohaoyang/gaohaoyang.github.io
 
 # They like us, right?
-script/build-repo https://github.com/twbs/bootstrap-blog
+time script/build-repo https://github.com/twbs/bootstrap-blog
 
 # Add this site because the author said it takes 15 minutes to build.
-script/build-repo https://github.com/grantmakers/grantmakers.github.io
+time script/build-repo https://github.com/grantmakers/grantmakers.github.io
