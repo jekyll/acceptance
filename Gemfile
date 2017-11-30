@@ -10,4 +10,3 @@ versions.each do |gem_name, version|
 end
 
 gem "redcarpet" # 18F/federalist-docs
-gem "jekyll-remote-theme" # benbalter/benbalter.github.com
