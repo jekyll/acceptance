@@ -1,8 +1,11 @@
 language: ruby
 script: script/cibuild
 sudo: false
-
 rvm:
-  - 2.5.1 
-  - 2.4.4
-  - 2.3.7
+- 2.5.1
+- 2.4.4
+- 2.3.7
+
+notifications:
+  slack:
+    secure: CZHkD5BHIZ3hrMRcwmmge/ala4Sa4qHSrNrMeZmvDCQWAaCqhzn3Sp4/TandQEg28NonTHxfprVRdAW0YugKN9W6BxYFRYWdfeCrqjJM7BVzQ7NwqdZk3/Xfesk5DWgmt8JsEiwSzl2vHmAxlCVWxoEOVZxTVQwplBBSQbzR7K5HvSap0IXCgxh//+JeL99Ud76G1SGmDeaxSkVUtdNI32Lr3jQ611nxM0RFyeDo2B0bf/NHCINI8mqKgFDJMdZkBYD4tjfdsTU25qytDvdSpn21oHCf9pURSeVBNwmuyuIqSxLB8/Qm7wx921EfCTP4tYbXD702Xv3zfWJIpPRso6ju/iXtMN5cYyEq6Xkit2MBhslGaQYu8KWv0ma4wD7ZIcnBgswQQf5GnaV9ZYH5X2lMFUpRuFqg34sDPIUyvgacBQFmeMdtghPRUPEx/zLk3DBRvzAe/MPdw7QyW9HE2a9RCiJDteOTG3Y0GWzCOxCoRPfM03KkMvuaDmgcZOzEpEnpT8Y3nGVRN96A+/f20vZOgeRRDESedt4EbK7iw44ltsZVjzpF7EFHm2+3eT8GaQHcMiCb/F6uNuEtYiK+8MLfRHdAwv7wy7N2KfL3KF2iKz57jXVLyOsLlNr9HAgkSgQfXq7ueXK0pKqT37tgsCHj/AKGIOpEsDOs0FcyWIU=
