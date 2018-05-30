@@ -6,7 +6,7 @@ require 'json'
 require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem "jekyll", git: "https://github.com/jekyll/jekyll", branch: "master"
+gem "jekyll", git: "https://github.com/jekyll/jekyll", branch: "i18n-allow-lower-versions"
 versions.each do |gem_name, version|
   gem gem_name, version if gem_name.start_with?("jekyll-") && !OVERRIDES.include?(gem_name)
 end
