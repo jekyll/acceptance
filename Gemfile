@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-OVERRIDES = %w(jemoji jekyll-commonmark-ghpages)
+OVERRIDES = %w(jekyll-commonmark-ghpages)
 
 require 'json'
 require 'open-uri'
@@ -10,6 +10,8 @@ gem "jekyll", git: "https://github.com/jekyll/jekyll", branch: "master"
 versions.each do |gem_name, version|
   gem gem_name, version if gem_name.start_with?("jekyll-") && !OVERRIDES.include?(gem_name)
 end
+
+gem "jemoji", versions["jemoji"]
 
 gem "jekyll-commonmark-ghpages",
   git: "https://github.com/github/jekyll-commonmark-ghpages",
