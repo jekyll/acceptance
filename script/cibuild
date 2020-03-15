@@ -4,7 +4,9 @@
 time script/build-repo https://github.com/parkr/stuff
 
 # Ben's site is great at catching weird bugs.
-time script/build-repo https://github.com/benbalter/benbalter.github.com
+# The `retlab` theme has 'github-pages' listed as a runtime_dependency which
+#   can mess with our bundle environment.
+# time script/build-repo https://github.com/benbalter/benbalter.github.com
 
 # Frank's blog made use of many plugins
 time script/build-repo https://github.com/DirtyF/frank.taillandier.me
