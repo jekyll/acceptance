@@ -4,13 +4,13 @@
 time script/build-repo https://github.com/parkr/stuff
 
 # Ben's site is great at catching weird bugs.
-time script/build-repo https://github.com/benbalter/benbalter.github.com
+# The `retlab` theme has 'github-pages' listed as a runtime_dependency which
+#   can mess with our bundle environment.
+# time script/build-repo https://github.com/benbalter/benbalter.github.com
 
 # Frank's blog made use of many plugins
-time script/build-repo https://github.com/DirtyF/frank.taillandier.me
-
-# 18F has been a huge user & supporter of Jekyll.
-time script/build-repo https://github.com/18F/federalist-docs
+# However, the site activates various plugins via Bundler only
+# time script/build-repo https://github.com/DirtyF/frank.taillandier.me
 
 # @mmistakes is one of our most prolific theme writers & people love this theme.
 time script/build-repo https://github.com/mmistakes/minimal-mistakes
