@@ -3,8 +3,8 @@ before_script: bundle update
 script: script/cibuild
 sudo: false
 rvm:
-- 2.6.3
-- 2.4.6
+- 2.7.1
+- 2.5.8
 notifications:
   email: false
   slack:
