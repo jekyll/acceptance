@@ -18,9 +18,6 @@ time script/build-repo https://github.com/mmistakes/minimal-mistakes
 # Something with plenty of non-ASCII characters.
 time script/build-repo https://github.com/Gaohaoyang/gaohaoyang.github.io
 
-# They like us, right?
-time script/build-repo https://github.com/twbs/bootstrap-blog
-
 # Add this site because the author said it takes 15 minutes to build.
 time script/build-repo https://github.com/grantmakers/grantmakers.github.io
 
